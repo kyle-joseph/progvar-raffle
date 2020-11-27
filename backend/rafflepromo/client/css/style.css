@@ -1,0 +1,71 @@
+ * {
+    box-sizing: border-box;
+ }
+body{
+    background-color: #253241;
+    color: white;
+    font-family: 'Homestead-Inline';
+}
+
+.containerHeader{
+    width: 100%;
+    background-color: darken(#7ca4d1, 3%);
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 800px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.containerHeader{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+}
+
+#roll {
+    display: inline-block;
+    color: white;
+    background-color: darken(#253241, 3%);
+    text-decoration: none;
+    font-size: 3rem;
+    border: 5px solid white;
+    padding: 0.45em 2em;
+    border-radius: 3em;
+    transition: 400ms ease-in-out;
+}
+
+#rollAgain {
+    display: inline-block;
+    color: white;
+    background-color: darken(#253241, 2%);
+    text-decoration: none;
+    font-size: 3rem;
+    border: 2px solid white;
+    padding: 0 0.45em;
+    border-radius: 3em;
+    transition: 400ms ease-in-out;
+}
+
+#roll :hover {
+    background-color: white;
+    color: #253241;
+    font-family: 'Homestead';
+}
+
+#rafflenumber{
+    font-size: 2.5rem;}
+#winner{
+    font-size: 4rem
+}
+
+#winer span{
+    font-size: 0.35em;
+    letter-spacing: 4px;
+    font-family: 'Homestead;
+
+}
